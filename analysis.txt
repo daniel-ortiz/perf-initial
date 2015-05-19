@@ -1,0 +1,1577 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00      351     0.00     0.00  repsep_snprintf
+  0.00      0.00     0.00      298     0.00     0.00  hists__sort_list_width
+  0.00      0.00     0.00      270     0.00     0.00  hists__col_len
+  0.00      0.00     0.00      243     0.00     0.00  __sort__hpp_entry
+  0.00      0.00     0.00      205     0.00     0.00  rb_next
+  0.00      0.00     0.00      199     0.00     0.00  rb_first
+  0.00      0.00     0.00      162     0.00     0.00  readn
+  0.00      0.00     0.00      142     0.00     0.00  perf_evlist__parse_sample
+  0.00      0.00     0.00      142     0.00     0.00  perf_evsel__parse_sample
+  0.00      0.00     0.00      142     0.00     0.00  sort__local_weight_cmp
+  0.00      0.00     0.00      142     0.00     0.00  ui_progress__update
+  0.00      0.00     0.00      135     0.00     0.00  dso__loaded
+  0.00      0.00     0.00      131     0.00     0.00  rb_insert_color
+  0.00      0.00     0.00      120     0.00     0.00  hpp__sort_overhead
+  0.00      0.00     0.00      114     0.00     0.00  symbols__delete
+  0.00      0.00     0.00      110     0.00     0.00  prefixcmp
+  0.00      0.00     0.00      108     0.00     0.00  maps__find
+  0.00      0.00     0.00       98     0.00     0.00  hpp__nop_cmp
+  0.00      0.00     0.00       96     0.00     0.00  events_stats__inc
+  0.00      0.00     0.00       96     0.00     0.00  perf_evlist(int, double, ev, short,...)(long)
+  0.00      0.00     0.00       96     0.00     0.00  perf_session_deliver_event
+  0.00      0.00     0.00       96     0.00     0.00  perf_session_queue_event
+  0.00      0.00     0.00       88     0.00     0.00  sort__lvl_cmp
+  0.00      0.00     0.00       81     0.00     0.00  dso__find_symbol
+  0.00      0.00     0.00       81     0.00     0.00  identity__map_ip
+  0.00      0.00     0.00       81     0.00     0.00  map__find_symbol
+  0.00      0.00     0.00       77     0.00     0.00  rb_erase
+  0.00      0.00     0.00       69     0.00     0.00  hists__inc_nr_events
+  0.00      0.00     0.00       68     0.00     0.00  maps__insert
+  0.00      0.00     0.00       67     0.00     0.00  __dsos__findnew
+  0.00      0.00     0.00       67     0.00     0.00  machine__process_mmap_event
+  0.00      0.00     0.00       67     0.00     0.00  perf_event__process_mmap
+  0.00      0.00     0.00       57     0.00     0.00  dso__delete
+  0.00      0.00     0.00       57     0.00     0.00  dso__free_a2l
+  0.00      0.00     0.00       57     0.00     0.00  dso__new
+  0.00      0.00     0.00       56     0.00     0.00  strbuf_add
+  0.00      0.00     0.00       55     0.00     0.00  symbol__elf_init
+  0.00      0.00     0.00       54     0.00     0.00  dso__name_len
+  0.00      0.00     0.00       54     0.00     0.00  dump_printf
+  0.00      0.00     0.00       54     0.00     0.00  hists__total_period
+  0.00      0.00     0.00       54     0.00     0.00  map__load
+  0.00      0.00     0.00       54     0.00     0.00  perf_hpp__same_sort_entry
+  0.00      0.00     0.00       54     0.00     0.00  thread__find_addr_location
+  0.00      0.00     0.00       51     0.00     0.00  map__new2
+  0.00      0.00     0.00       50     0.00     0.00  machine__process_kernel_mmap_event
+  0.00      0.00     0.00       49     0.00     0.00  dso__set_short_name
+  0.00      0.00     0.00       46     0.00     0.00  strxfrchar
+  0.00      0.00     0.00       44     0.00     0.00  sort__daddr_cmp
+  0.00      0.00     0.00       44     0.00     0.00  sort__dso_cmp
+  0.00      0.00     0.00       44     0.00     0.00  sort__sym_cmp
+  0.00      0.00     0.00       44     0.00     0.00  sort__sym_sort
+  0.00      0.00     0.00       38     0.00     0.00  null_progress__update
+  0.00      0.00     0.00       30     0.00     0.00  strbuf_addf
+  0.00      0.00     0.00       28     0.00     0.00  comm__str
+  0.00      0.00     0.00       28     0.00     0.00  machine__findnew_thread
+  0.00      0.00     0.00       28     0.00     0.00  ui__has_annotation
+  0.00      0.00     0.00       27     0.00     0.00  __hists__add_entry
+  0.00      0.00     0.00       27     0.00     0.00  color_snprintf
+  0.00      0.00     0.00       27     0.00     0.00  hist_entry__append_callchain
+  0.00      0.00     0.00       27     0.00     0.00  hist_entry__daddr_snprintf
+  0.00      0.00     0.00       27     0.00     0.00  hist_entry__dso_daddr_snprintf
+  0.00      0.00     0.00       27     0.00     0.00  hist_entry__dso_snprintf
+  0.00      0.00     0.00       27     0.00     0.00  hist_entry__local_weight_snprintf
+  0.00      0.00     0.00       27     0.00     0.00  hist_entry__locked_snprintf
+  0.00      0.00     0.00       27     0.00     0.00  hist_entry__lvl_snprintf
+  0.00      0.00     0.00       27     0.00     0.00  hist_entry__new
+  0.00      0.00     0.00       27     0.00     0.00  hist_entry__snoop_snprintf
+  0.00      0.00     0.00       27     0.00     0.00  hist_entry__sym_snprintf
+  0.00      0.00     0.00       27     0.00     0.00  hist_entry__tlb_snprintf
+  0.00      0.00     0.00       27     0.00     0.00  hist_entry_iter__add
+  0.00      0.00     0.00       27     0.00     0.00  hist_iter__report_callback
+  0.00      0.00     0.00       27     0.00     0.00  hists__calc_col_len
+  0.00      0.00     0.00       27     0.00     0.00  hpp__color_overhead
+  0.00      0.00     0.00       27     0.00     0.00  hpp__entry_samples
+  0.00      0.00     0.00       27     0.00     0.00  hpp_color_scnprintf
+  0.00      0.00     0.00       27     0.00     0.00  hpp_entry_scnprintf
+  0.00      0.00     0.00       27     0.00     0.00  iter_add_single_mem_entry
+  0.00      0.00     0.00       27     0.00     0.00  iter_finish_mem_entry
+  0.00      0.00     0.00       27     0.00     0.00  iter_next_nop_entry
+  0.00      0.00     0.00       27     0.00     0.00  iter_prepare_mem_entry
+  0.00      0.00     0.00       27     0.00     0.00  perf_event__preprocess_sample
+  0.00      0.00     0.00       27     0.00     0.00  process_sample_event
+  0.00      0.00     0.00       27     0.00     0.00  sample__resolve_callchain
+  0.00      0.00     0.00       27     0.00     0.00  sample__resolve_mem
+  0.00      0.00     0.00       27     0.00     0.00  thread__comm
+  0.00      0.00     0.00       27     0.00     0.00  thread__comm_len
+  0.00      0.00     0.00       27     0.00     0.00  thread__comm_str
+  0.00      0.00     0.00       27     0.00     0.00  thread__find_addr_map
+  0.00      0.00     0.00       27     0.00     0.00  thread__find_cpumode_addr_location
+  0.00      0.00     0.00       27     0.00     0.00  value_color_snprintf
+  0.00      0.00     0.00       22     0.00     0.00  xrealloc
+  0.00      0.00     0.00       18     0.00     0.00  __sort__hpp_width
+  0.00      0.00     0.00       17     0.00     0.00  __machine__findnew_thread
+  0.00      0.00     0.00       17     0.00     0.00  map__new
+  0.00      0.00     0.00       17     0.00     0.00  map_groups__fixup_overlappings
+  0.00      0.00     0.00       17     0.00     0.00  thread__insert_map
+  0.00      0.00     0.00       12     0.00     0.00  dso__load_vmlinux
+  0.00      0.00     0.00       12     0.00     0.00  symsrc__init
+  0.00      0.00     0.00       11     0.00     0.00  perf_hpp__reset_width
+  0.00      0.00     0.00       10     0.00     0.00  perf_hpp__is_sort_entry
+  0.00      0.00     0.00        9     0.00     0.00  __sort__hpp_header
+  0.00      0.00     0.00        9     0.00     0.00  eprintf
+  0.00      0.00     0.00        9     0.00     0.00  hists__new_col_len
+  0.00      0.00     0.00        9     0.00     0.00  perf_hpp__register_sort_field
+  0.00      0.00     0.00        9     0.00     0.00  scnprintf.constprop.11
+  0.00      0.00     0.00        9     0.00     0.00  sort_dimension__add
+  0.00      0.00     0.00        7     0.00     0.00  strbuf_detach
+  0.00      0.00     0.00        6     0.00     0.00  __sort_dimension__add
+  0.00      0.00     0.00        5     0.00     0.00  build_id__sprintf
+  0.00      0.00     0.00        4     0.00     0.00  hweight64
+  0.00      0.00     0.00        4     0.00     0.00  memdup
+  0.00      0.00     0.00        4     0.00     0.00  mkpath
+  0.00      0.00     0.00        4     0.00     0.00  scnprintf.constprop.9
+  0.00      0.00     0.00        4     0.00     0.00  strbuf_init
+  0.00      0.00     0.00        3     0.00     0.00  get_value
+  0.00      0.00     0.00        3     0.00     0.00  perf_config
+  0.00      0.00     0.00        3     0.00     0.00  ui_progress__init
+  0.00      0.00     0.00        2     0.00     0.00  comm(float, long double,...)(...)
+  0.00      0.00     0.00        2     0.00     0.00  comm__new
+  0.00      0.00     0.00        2     0.00     0.00  comm__override
+  0.00      0.00     0.00        2     0.00     0.00  dso__build_id_equal
+  0.00      0.00     0.00        2     0.00     0.00  dso__build_id_filename
+  0.00      0.00     0.00        2     0.00     0.00  dso__find_kallsyms
+  0.00      0.00     0.00        2     0.00     0.00  dso__load
+  0.00      0.00     0.00        2     0.00     0.00  hpp__width_overhead
+  0.00      0.00     0.00        2     0.00     0.00  hpp__width_samples
+  0.00      0.00     0.00        2     0.00     0.00  map__delete
+  0.00      0.00     0.00        2     0.00     0.00  map_groups__new
+  0.00      0.00     0.00        2     0.00     0.00  map_groups__put
+  0.00      0.00     0.00        2     0.00     0.00  maps__remove
+  0.00      0.00     0.00        2     0.00     0.00  perf_header__set_cmdline
+  0.00      0.00     0.00        2     0.00     0.00  scnprintf.constprop.22
+  0.00      0.00     0.00        2     0.00     0.00  strbuf_grow
+  0.00      0.00     0.00        2     0.00     0.00  strbuf_release
+  0.00      0.00     0.00        2     0.00     0.00  sysfs__read_build_id
+  0.00      0.00     0.00        2     0.00     0.00  thread__delete
+  0.00      0.00     0.00        2     0.00     0.00  thread__init_map_groups
+  0.00      0.00     0.00        2     0.00     0.00  thread__new
+  0.00      0.00     0.00        2     0.00     0.00  thread__set_comm
+  0.00      0.00     0.00        2     0.00     0.00  ui_progress__finish
+  0.00      0.00     0.00        1     0.00     0.00  __bitmap_weight
+  0.00      0.00     0.00        1     0.00     0.00  __perf_session__process_events
+  0.00      0.00     0.00        1     0.00     0.00  cmd_mem
+  0.00      0.00     0.00        1     0.00     0.00  cmd_report
+  0.00      0.00     0.00        1     0.00     0.00  convert_unit
+  0.00      0.00     0.00        1     0.00     0.00  dso__set_build_id
+  0.00      0.00     0.00        1     0.00     0.00  dso__set_long_name
+  0.00      0.00     0.00        1     0.00     0.00  dsos__add
+  0.00      0.00     0.00        1     0.00     0.00  dsos__find
+  0.00      0.00     0.00        1     0.00     0.00  exit_browser
+  0.00      0.00     0.00        1     0.00     0.00  flush_sample_queue
+  0.00      0.00     0.00        1     0.00     0.00  get_pwd_cwd
+  0.00      0.00     0.00        1     0.00     0.00  hists__collapse_resort
+  0.00      0.00     0.00        1     0.00     0.00  hists__fprintf
+  0.00      0.00     0.00        1     0.00     0.00  hists__output_resort
+  0.00      0.00     0.00        1     0.00     0.00  hpp__header_overhead
+  0.00      0.00     0.00        1     0.00     0.00  hpp__header_samples
+  0.00      0.00     0.00        1     0.00     0.00  machine__delete_dead_threads
+  0.00      0.00     0.00        1     0.00     0.00  machine__delete_threads
+  0.00      0.00     0.00        1     0.00     0.00  machine__process_comm_event
+  0.00      0.00     0.00        1     0.00     0.00  machine__process_exit_event
+  0.00      0.00     0.00        1     0.00     0.00  machines__destroy_kernel_maps
+  0.00      0.00     0.00        1     0.00     0.00  machines__exit
+  0.00      0.00     0.00        1     0.00     0.00  machines__findnew
+  0.00      0.00     0.00        1     0.00     0.00  machines__init
+  0.00      0.00     0.00        1     0.00     0.00  machines__set_id_hdr_size
+  0.00      0.00     0.00        1     0.00     0.00  make_nonrelative_path
+  0.00      0.00     0.00        1     0.00     0.00  map_groups__exit
+  0.00      0.00     0.00        1     0.00     0.00  map_groups__init
+  0.00      0.00     0.00        1     0.00     0.00  maps__set_kallsyms_ref_reloc_sym
+  0.00      0.00     0.00        1     0.00     0.00  pager_in_use
+  0.00      0.00     0.00        1     0.00     0.00  parse_options
+  0.00      0.00     0.00        1     0.00     0.00  parse_options_step
+  0.00      0.00     0.00        1     0.00     0.00  parse_options_subcommand
+  0.00      0.00     0.00        1     0.00     0.00  perf_data_file__close
+  0.00      0.00     0.00        1     0.00     0.00  perf_data_file__open
+  0.00      0.00     0.00        1     0.00     0.00  perf_event__process_comm
+  0.00      0.00     0.00        1     0.00     0.00  perf_event__process_exit
+  0.00      0.00     0.00        1     0.00     0.00  perf_evlist__add
+  0.00      0.00     0.00        1     0.00     0.00  perf_evlist__combined_sample_type
+  0.00      0.00     0.00        1     0.00     0.00  perf_evlist__id_hdr_size
+  0.00      0.00     0.00        1     0.00     0.00  perf_evlist__new
+  0.00      0.00     0.00        1     0.00     0.00  perf_evlist__sample_id_all
+  0.00      0.00     0.00        1     0.00     0.00  perf_evlist__valid_read_format
+  0.00      0.00     0.00        1     0.00     0.00  perf_evlist__valid_sample_id_all
+  0.00      0.00     0.00        1     0.00     0.00  perf_evlist__valid_sample_type
+  0.00      0.00     0.00        1     0.00     0.00  perf_evsel__alloc_id
+  0.00      0.00     0.00        1     0.00     0.00  perf_evsel__name
+  0.00      0.00     0.00        1     0.00     0.00  perf_evsel__new_idx
+  0.00      0.00     0.00        1     0.00     0.00  perf_file_header__read
+  0.00      0.00     0.00        1     0.00     0.00  perf_header__has_feat
+  0.00      0.00     0.00        1     0.00     0.00  perf_header__read_build_ids
+  0.00      0.00     0.00        1     0.00     0.00  perf_hpp__append_sort_keys
+  0.00      0.00     0.00        1     0.00     0.00  perf_hpp__init
+  0.00      0.00     0.00        1     0.00     0.00  perf_hpp__setup_output_field
+  0.00      0.00     0.00        1     0.00     0.00  perf_session__delete
+  0.00      0.00     0.00        1     0.00     0.00  perf_session__new
+  0.00      0.00     0.00        1     0.00     0.00  perf_session__process_events
+  0.00      0.00     0.00        1     0.00     0.00  perf_session__read_header
+  0.00      0.00     0.00        1     0.00     0.00  perf_tool__fill_defaults
+  0.00      0.00     0.00        1     0.00     0.00  process_arch
+  0.00      0.00     0.00        1     0.00     0.00  process_build_id
+  0.00      0.00     0.00        1     0.00     0.00  process_cmdline
+  0.00      0.00     0.00        1     0.00     0.00  process_cpu_topology
+  0.00      0.00     0.00        1     0.00     0.00  process_cpudesc
+  0.00      0.00     0.00        1     0.00     0.00  process_cpuid
+  0.00      0.00     0.00        1     0.00     0.00  process_event_desc
+  0.00      0.00     0.00        1     0.00     0.00  process_hostname
+  0.00      0.00     0.00        1     0.00     0.00  process_nrcpus
+  0.00      0.00     0.00        1     0.00     0.00  process_numa_topology
+  0.00      0.00     0.00        1     0.00     0.00  process_osrelease
+  0.00      0.00     0.00        1     0.00     0.00  process_pmu_mappings
+  0.00      0.00     0.00        1     0.00     0.00  process_total_mem
+  0.00      0.00     0.00        1     0.00     0.00  process_version
+  0.00      0.00     0.00        1     0.00     0.00  read_event_desc
+  0.00      0.00     0.00        1     0.00     0.00  scnprintf.constprop.10
+  0.00      0.00     0.00        1     0.00     0.00  setup_browser
+  0.00      0.00     0.00        1     0.00     0.00  setup_pager
+  0.00      0.00     0.00        1     0.00     0.00  setup_sorting
+  0.00      0.00     0.00        1     0.00     0.00  sigchain_push_common
+  0.00      0.00     0.00        1     0.00     0.00  sort__setup_elide
+  0.00      0.00     0.00        1     0.00     0.00  start_command
+  0.00      0.00     0.00        1     0.00     0.00  symbol__init
+  0.00      0.00     0.00        1     0.00     0.00  symbol__restricted_filename
+  0.00      0.00     0.00        1     0.00     0.00  system_path
+  0.00      0.00     0.00        1     0.00     0.00  vdso__dso_findnew
+  0.00      0.00     0.00        1     0.00     0.00  vdso__exit
+  0.00      0.00     0.00        1     0.00     0.00  vmlinux_path__init
+  0.00      0.00     0.00        1     0.00     0.00  xyarray__new
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2014 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00      27/351         hist_entry__tlb_snprintf [66]
+                0.00    0.00      27/351         hist_entry__lvl_snprintf [62]
+                0.00    0.00      27/351         hist_entry__snoop_snprintf [64]
+                0.00    0.00      81/351         hist_entry__sym_snprintf [65]
+                0.00    0.00      81/351         hist_entry__daddr_snprintf [57]
+                0.00    0.00     108/351         hists__fprintf [145]
+[1]      0.0    0.00    0.00     351         repsep_snprintf [1]
+-----------------------------------------------
+                0.00    0.00     298/298         hists__fprintf [145]
+[2]      0.0    0.00    0.00     298         hists__sort_list_width [2]
+                0.00    0.00       9/18          __sort__hpp_width [1762]
+                0.00    0.00       1/2           hpp__width_samples [119]
+                0.00    0.00       1/2           hpp__width_overhead [118]
+-----------------------------------------------
+                0.00    0.00       9/270         __sort__hpp_header [1764]
+                0.00    0.00      18/270         __sort__hpp_width [1762]
+                0.00    0.00     243/270         __sort__hpp_entry [1759]
+[3]      0.0    0.00    0.00     270         hists__col_len [3]
+-----------------------------------------------
+                0.00    0.00       2/205         machine__delete_threads [150]
+                0.00    0.00      16/205         map_groups__put [122]
+                0.00    0.00      27/205         hists__output_resort [146]
+                0.00    0.00      27/205         hists__fprintf [145]
+                0.00    0.00      49/205         map_groups__exit [159]
+                0.00    0.00      84/205         map_groups__fixup_overlappings [90]
+[4]      0.0    0.00    0.00     205         rb_next [4]
+-----------------------------------------------
+                0.00    0.00       1/199         machine__delete_threads [150]
+                0.00    0.00       1/199         machines__set_id_hdr_size [157]
+                0.00    0.00       1/199         machines__destroy_kernel_maps [153]
+                0.00    0.00       1/199         hists__output_resort [146]
+                0.00    0.00       1/199         hists__fprintf [145]
+                0.00    0.00       2/199         map_groups__exit [159]
+                0.00    0.00       4/199         map_groups__put [122]
+                0.00    0.00      17/199         map_groups__fixup_overlappings [90]
+                0.00    0.00      57/199         dso__delete [31]
+                0.00    0.00     114/199         symbols__delete [14]
+[5]      0.0    0.00    0.00     199         rb_first [5]
+-----------------------------------------------
+                0.00    0.00       1/162         process_total_mem [204]
+                0.00    0.00       1/162         perf_file_header__read [181]
+                0.00    0.00       2/162         process_nrcpus [200]
+                0.00    0.00       2/162         perf_header__read_build_ids [183]
+                0.00    0.00       2/162         process_osrelease [202]
+                0.00    0.00       2/162         process_version [205]
+                0.00    0.00       2/162         process_arch [192]
+                0.00    0.00       2/162         process_cpudesc [196]
+                0.00    0.00       2/162         process_cpuid [197]
+                0.00    0.00       2/162         process_hostname [199]
+                0.00    0.00       4/162         perf_session__read_header [190]
+                0.00    0.00       6/162         read_event_desc [206]
+                0.00    0.00       9/162         process_cmdline [194]
+                0.00    0.00      11/162         process_numa_topology [201]
+                0.00    0.00      38/162         process_cpu_topology [195]
+                0.00    0.00      76/162         process_pmu_mappings [203]
+[6]      0.0    0.00    0.00     162         readn [6]
+-----------------------------------------------
+                0.00    0.00      46/142         flush_sample_queue [142]
+                0.00    0.00      96/142         __perf_session__process_events [1767]
+[7]      0.0    0.00    0.00     142         perf_evlist__parse_sample [7]
+-----------------------------------------------
+                0.00    0.00      46/142         flush_sample_queue [142]
+                0.00    0.00      96/142         __perf_session__process_events [1767]
+[8]      0.0    0.00    0.00     142         perf_evsel__parse_sample [8]
+-----------------------------------------------
+                0.00    0.00      44/142         hists__output_resort [146]
+                0.00    0.00      98/142         __hists__add_entry [1761]
+[9]      0.0    0.00    0.00     142         sort__local_weight_cmp [9]
+-----------------------------------------------
+                0.00    0.00      46/142         flush_sample_queue [142]
+                0.00    0.00      96/142         __perf_session__process_events [1767]
+[10]     0.0    0.00    0.00     142         ui_progress__update [10]
+-----------------------------------------------
+                0.00    0.00      54/135         map__load [39]
+                0.00    0.00      81/135         map__find_symbol [25]
+[11]     0.0    0.00    0.00     135         dso__loaded [11]
+-----------------------------------------------
+                0.00    0.00       2/131         machine__findnew_thread [53]
+                0.00    0.00       2/131         comm__new [112]
+                0.00    0.00       2/131         comm__override [113]
+                0.00    0.00       3/131         map_groups__fixup_overlappings [90]
+                0.00    0.00      17/131         thread__insert_map [91]
+                0.00    0.00      27/131         __hists__add_entry [1761]
+                0.00    0.00      27/131         hists__output_resort [146]
+                0.00    0.00      51/131         machine__process_kernel_mmap_event [43]
+[12]     0.0    0.00    0.00     131         rb_insert_color [12]
+-----------------------------------------------
+                0.00    0.00     120/120         hists__output_resort [146]
+[13]     0.0    0.00    0.00     120         hpp__sort_overhead [13]
+-----------------------------------------------
+                0.00    0.00     114/114         dso__delete [31]
+[14]     0.0    0.00    0.00     114         symbols__delete [14]
+                0.00    0.00     114/199         rb_first [5]
+-----------------------------------------------
+                0.00    0.00     110/110         parse_options [163]
+[15]     0.0    0.00    0.00     110         prefixcmp [15]
+-----------------------------------------------
+                0.00    0.00      27/108         thread__find_addr_map [85]
+                0.00    0.00      81/108         thread__find_addr_location [41]
+[16]     0.0    0.00    0.00     108         maps__find [16]
+-----------------------------------------------
+                0.00    0.00      98/98          __hists__add_entry [1761]
+[17]     0.0    0.00    0.00      98         hpp__nop_cmp [17]
+-----------------------------------------------
+                0.00    0.00      96/96          __perf_session__process_events [1767]
+[18]     0.0    0.00    0.00      96         events_stats__inc [18]
+-----------------------------------------------
+                0.00    0.00      96/96          perf_session_deliver_event [20]
+[19]     0.0    0.00    0.00      96         perf_evlist(int, double, ev, short,...)(long) [19]
+-----------------------------------------------
+                0.00    0.00      46/96          flush_sample_queue [142]
+                0.00    0.00      50/96          __perf_session__process_events [1767]
+[20]     0.0    0.00    0.00      96         perf_session_deliver_event [20]
+                0.00    0.00      96/96          perf_evlist(int, double, ev, short,...)(long) [19]
+                0.00    0.00      69/69          hists__inc_nr_events [27]
+-----------------------------------------------
+                0.00    0.00      96/96          __perf_session__process_events [1767]
+[21]     0.0    0.00    0.00      96         perf_session_queue_event [21]
+-----------------------------------------------
+                0.00    0.00      44/88          __hists__add_entry [1761]
+                0.00    0.00      44/88          hists__output_resort [146]
+[22]     0.0    0.00    0.00      88         sort__lvl_cmp [22]
+-----------------------------------------------
+                0.00    0.00      81/81          map__find_symbol [25]
+[23]     0.0    0.00    0.00      81         dso__find_symbol [23]
+-----------------------------------------------
+                0.00    0.00      27/81          thread__find_addr_map [85]
+                0.00    0.00      54/81          thread__find_addr_location [41]
+[24]     0.0    0.00    0.00      81         identity__map_ip [24]
+-----------------------------------------------
+                0.00    0.00      27/81          perf_event__preprocess_sample [78]
+                0.00    0.00      54/81          thread__find_addr_location [41]
+[25]     0.0    0.00    0.00      81         map__find_symbol [25]
+                0.00    0.00      81/135         dso__loaded [11]
+                0.00    0.00      81/81          dso__find_symbol [23]
+-----------------------------------------------
+                0.00    0.00       2/77          machine__delete_threads [150]
+                0.00    0.00       2/77          machines__destroy_kernel_maps [153]
+                0.00    0.00       2/77          comm__override [113]
+                0.00    0.00       2/77          comm(float, long double,...)(...) [111]
+                0.00    0.00       4/77          map_groups__fixup_overlappings [90]
+                0.00    0.00      16/77          map_groups__put [122]
+                0.00    0.00      49/77          map_groups__exit [159]
+[26]     0.0    0.00    0.00      77         rb_erase [26]
+-----------------------------------------------
+                0.00    0.00      69/69          perf_session_deliver_event [20]
+[27]     0.0    0.00    0.00      69         hists__inc_nr_events [27]
+-----------------------------------------------
+                0.00    0.00      17/68          thread__insert_map [91]
+                0.00    0.00      51/68          machine__process_kernel_mmap_event [43]
+[28]     0.0    0.00    0.00      68         maps__insert [28]
+-----------------------------------------------
+                0.00    0.00      17/67          flush_sample_queue [142]
+                0.00    0.00      50/67          __perf_session__process_events [1767]
+[29]     0.0    0.00    0.00      67         machine__process_mmap_event [29]
+                0.00    0.00      50/50          machine__process_kernel_mmap_event [43]
+                0.00    0.00      17/17          __machine__findnew_thread [1763]
+                0.00    0.00      17/17          map__new [89]
+                0.00    0.00      17/17          thread__insert_map [91]
+-----------------------------------------------
+                0.00    0.00      17/67          flush_sample_queue [142]
+                0.00    0.00      50/67          __perf_session__process_events [1767]
+[30]     0.0    0.00    0.00      67         perf_event__process_mmap [30]
+-----------------------------------------------
+                0.00    0.00      57/57          machines__exit [154]
+[31]     0.0    0.00    0.00      57         dso__delete [31]
+                0.00    0.00     114/114         symbols__delete [14]
+                0.00    0.00      57/199         rb_first [5]
+                0.00    0.00      57/57          dso__free_a2l [32]
+-----------------------------------------------
+                0.00    0.00      57/57          dso__delete [31]
+[32]     0.0    0.00    0.00      57         dso__free_a2l [32]
+-----------------------------------------------
+                0.00    0.00       1/57          vdso__dso_findnew [217]
+                0.00    0.00      56/57          __dsos__findnew [1760]
+[33]     0.0    0.00    0.00      57         dso__new [33]
+-----------------------------------------------
+                0.00    0.00       2/56          process_numa_topology [201]
+                0.00    0.00       3/56          setup_path [1421]
+                0.00    0.00       4/56          parse_options_subcommand [165]
+                0.00    0.00       4/56          process_cmdline [194]
+                0.00    0.00      18/56          process_cpu_topology [195]
+                0.00    0.00      25/56          process_pmu_mappings [203]
+[34]     0.0    0.00    0.00      56         strbuf_add [34]
+                0.00    0.00       6/22          xrealloc [88]
+-----------------------------------------------
+                0.00    0.00       1/55          symbol__init [214]
+                0.00    0.00      54/55          color_snprintf [55]
+[35]     0.0    0.00    0.00      55         symbol__elf_init [35]
+-----------------------------------------------
+                0.00    0.00      54/54          hists__calc_col_len [69]
+[36]     0.0    0.00    0.00      54         dso__name_len [36]
+-----------------------------------------------
+                0.00    0.00      54/54          perf_event__preprocess_sample [78]
+[37]     0.0    0.00    0.00      54         dump_printf [37]
+-----------------------------------------------
+                0.00    0.00      27/54          hpp__color_overhead [70]
+                0.00    0.00      27/54          hists__fprintf [145]
+[38]     0.0    0.00    0.00      54         hists__total_period [38]
+-----------------------------------------------
+                0.00    0.00      27/54          thread__find_addr_map [85]
+                0.00    0.00      27/54          thread__find_addr_location [41]
+[39]     0.0    0.00    0.00      54         map__load [39]
+                0.00    0.00      54/135         dso__loaded [11]
+                0.00    0.00       4/9           eprintf [96]
+                0.00    0.00       2/2           dso__load [117]
+                0.00    0.00       2/5           build_id__sprintf [102]
+-----------------------------------------------
+                0.00    0.00      54/54          perf_hpp__setup_output_field [186]
+[40]     0.0    0.00    0.00      54         perf_hpp__same_sort_entry [40]
+-----------------------------------------------
+                0.00    0.00      27/54          sample__resolve_mem [81]
+                0.00    0.00      27/54          thread__find_cpumode_addr_location [86]
+[41]     0.0    0.00    0.00      54         thread__find_addr_location [41]
+                0.00    0.00      81/108         maps__find [16]
+                0.00    0.00      54/81          identity__map_ip [24]
+                0.00    0.00      54/81          map__find_symbol [25]
+                0.00    0.00      27/54          map__load [39]
+-----------------------------------------------
+                0.00    0.00      51/51          machine__process_kernel_mmap_event [43]
+[42]     0.0    0.00    0.00      51         map__new2 [42]
+-----------------------------------------------
+                0.00    0.00      50/50          machine__process_mmap_event [29]
+[43]     0.0    0.00    0.00      50         machine__process_kernel_mmap_event [43]
+                0.00    0.00      51/51          map__new2 [42]
+                0.00    0.00      51/131         rb_insert_color [12]
+                0.00    0.00      51/68          maps__insert [28]
+                0.00    0.00      50/67          __dsos__findnew [1760]
+                0.00    0.00      49/49          dso__set_short_name [44]
+                0.00    0.00      46/46          strxfrchar [45]
+                0.00    0.00       1/1           scnprintf.constprop.10 [207]
+                0.00    0.00       1/1           symbol__restricted_filename [215]
+                0.00    0.00       1/1           maps__set_kallsyms_ref_reloc_sym [161]
+-----------------------------------------------
+                0.00    0.00      49/49          machine__process_kernel_mmap_event [43]
+[44]     0.0    0.00    0.00      49         dso__set_short_name [44]
+-----------------------------------------------
+                0.00    0.00      46/46          machine__process_kernel_mmap_event [43]
+[45]     0.0    0.00    0.00      46         strxfrchar [45]
+-----------------------------------------------
+                0.00    0.00      44/44          hists__output_resort [146]
+[46]     0.0    0.00    0.00      44         sort__daddr_cmp [46]
+-----------------------------------------------
+                0.00    0.00      44/44          hists__output_resort [146]
+[47]     0.0    0.00    0.00      44         sort__dso_cmp [47]
+-----------------------------------------------
+                0.00    0.00      44/44          __hists__add_entry [1761]
+[48]     0.0    0.00    0.00      44         sort__sym_cmp [48]
+-----------------------------------------------
+                0.00    0.00      44/44          hists__output_resort [146]
+[49]     0.0    0.00    0.00      44         sort__sym_sort [49]
+-----------------------------------------------
+                0.00    0.00      15/38          __perf_session__process_events [1767]
+                0.00    0.00      23/38          flush_sample_queue [142]
+[50]     0.0    0.00    0.00      38         null_progress__update [50]
+-----------------------------------------------
+                0.00    0.00       1/30          system_path [216]
+                0.00    0.00       1/30          setup_path [1421]
+                0.00    0.00       1/30          parse_options_subcommand [165]
+                0.00    0.00       2/30          process_numa_topology [201]
+                0.00    0.00      25/30          process_pmu_mappings [203]
+[51]     0.0    0.00    0.00      30         strbuf_addf [51]
+                0.00    0.00       6/22          xrealloc [88]
+-----------------------------------------------
+                0.00    0.00       1/28          thread__comm_len [83]
+                0.00    0.00      27/28          perf_event__preprocess_sample [78]
+[52]     0.0    0.00    0.00      28         comm__str [52]
+-----------------------------------------------
+                0.00    0.00       1/28          perf_session__process_events [189]
+                0.00    0.00      27/28          perf_event__preprocess_sample [78]
+[53]     0.0    0.00    0.00      28         machine__findnew_thread [53]
+                0.00    0.00       2/2           thread__new [131]
+                0.00    0.00       2/131         rb_insert_color [12]
+                0.00    0.00       2/2           thread__init_map_groups [130]
+-----------------------------------------------
+                0.00    0.00       1/28          cmd_report [135]
+                0.00    0.00      27/28          hist_iter__report_callback [68]
+[54]     0.0    0.00    0.00      28         ui__has_annotation [54]
+-----------------------------------------------
+                0.00    0.00      27/27          hpp_color_scnprintf [72]
+[55]     0.0    0.00    0.00      27         color_snprintf [55]
+                0.00    0.00      54/55          symbol__elf_init [35]
+                0.00    0.00       1/1           pager_in_use [162]
+-----------------------------------------------
+                0.00    0.00      27/27          iter_finish_mem_entry [75]
+[56]     0.0    0.00    0.00      27         hist_entry__append_callchain [56]
+-----------------------------------------------
+                0.00    0.00      27/27          hists__fprintf [145]
+[57]     0.0    0.00    0.00      27         hist_entry__daddr_snprintf [57]
+                0.00    0.00      81/351         repsep_snprintf [1]
+-----------------------------------------------
+                0.00    0.00      27/27          hists__fprintf [145]
+[58]     0.0    0.00    0.00      27         hist_entry__dso_daddr_snprintf [58]
+-----------------------------------------------
+                0.00    0.00      27/27          hists__fprintf [145]
+[59]     0.0    0.00    0.00      27         hist_entry__dso_snprintf [59]
+-----------------------------------------------
+                0.00    0.00      27/27          hists__fprintf [145]
+[60]     0.0    0.00    0.00      27         hist_entry__local_weight_snprintf [60]
+-----------------------------------------------
+                0.00    0.00      27/27          hists__fprintf [145]
+[61]     0.0    0.00    0.00      27         hist_entry__locked_snprintf [61]
+-----------------------------------------------
+                0.00    0.00      27/27          hists__fprintf [145]
+[62]     0.0    0.00    0.00      27         hist_entry__lvl_snprintf [62]
+                0.00    0.00      27/351         repsep_snprintf [1]
+-----------------------------------------------
+                0.00    0.00      27/27          __hists__add_entry [1761]
+[63]     0.0    0.00    0.00      27         hist_entry__new [63]
+-----------------------------------------------
+                0.00    0.00      27/27          hists__fprintf [145]
+[64]     0.0    0.00    0.00      27         hist_entry__snoop_snprintf [64]
+                0.00    0.00      27/351         repsep_snprintf [1]
+-----------------------------------------------
+                0.00    0.00      27/27          hists__fprintf [145]
+[65]     0.0    0.00    0.00      27         hist_entry__sym_snprintf [65]
+                0.00    0.00      81/351         repsep_snprintf [1]
+-----------------------------------------------
+                0.00    0.00      27/27          hists__fprintf [145]
+[66]     0.0    0.00    0.00      27         hist_entry__tlb_snprintf [66]
+                0.00    0.00      27/351         repsep_snprintf [1]
+-----------------------------------------------
+                0.00    0.00      27/27          process_sample_event [79]
+[67]     0.0    0.00    0.00      27         hist_entry_iter__add [67]
+                0.00    0.00      27/27          sample__resolve_callchain [80]
+                0.00    0.00      27/27          iter_prepare_mem_entry [77]
+                0.00    0.00      27/27          iter_add_single_mem_entry [74]
+                0.00    0.00      27/27          iter_next_nop_entry [76]
+                0.00    0.00      27/27          hist_iter__report_callback [68]
+-----------------------------------------------
+                0.00    0.00      27/27          hist_entry_iter__add [67]
+[68]     0.0    0.00    0.00      27         hist_iter__report_callback [68]
+                0.00    0.00      27/28          ui__has_annotation [54]
+-----------------------------------------------
+                0.00    0.00      27/27          hists__output_resort [146]
+[69]     0.0    0.00    0.00      27         hists__calc_col_len [69]
+                0.00    0.00      54/54          dso__name_len [36]
+                0.00    0.00      27/27          thread__comm_len [83]
+-----------------------------------------------
+                0.00    0.00      27/27          hists__fprintf [145]
+[70]     0.0    0.00    0.00      27         hpp__color_overhead [70]
+                0.00    0.00      27/54          hists__total_period [38]
+                0.00    0.00      27/27          hpp_color_scnprintf [72]
+-----------------------------------------------
+                0.00    0.00      27/27          hists__fprintf [145]
+[71]     0.0    0.00    0.00      27         hpp__entry_samples [71]
+                0.00    0.00      27/27          hpp_entry_scnprintf [73]
+-----------------------------------------------
+                0.00    0.00      27/27          hpp__color_overhead [70]
+[72]     0.0    0.00    0.00      27         hpp_color_scnprintf [72]
+                0.00    0.00      27/27          color_snprintf [55]
+                0.00    0.00      27/27          value_color_snprintf [87]
+-----------------------------------------------
+                0.00    0.00      27/27          hpp__entry_samples [71]
+[73]     0.0    0.00    0.00      27         hpp_entry_scnprintf [73]
+-----------------------------------------------
+                0.00    0.00      27/27          hist_entry_iter__add [67]
+[74]     0.0    0.00    0.00      27         iter_add_single_mem_entry [74]
+                0.00    0.00      27/27          __hists__add_entry [1761]
+-----------------------------------------------
+                0.00    0.00      27/27          process_sample_event [79]
+[75]     0.0    0.00    0.00      27         iter_finish_mem_entry [75]
+                0.00    0.00      27/27          hist_entry__append_callchain [56]
+-----------------------------------------------
+                0.00    0.00      27/27          hist_entry_iter__add [67]
+[76]     0.0    0.00    0.00      27         iter_next_nop_entry [76]
+-----------------------------------------------
+                0.00    0.00      27/27          hist_entry_iter__add [67]
+[77]     0.0    0.00    0.00      27         iter_prepare_mem_entry [77]
+                0.00    0.00      27/27          sample__resolve_mem [81]
+-----------------------------------------------
+                0.00    0.00      27/27          process_sample_event [79]
+[78]     0.0    0.00    0.00      27         perf_event__preprocess_sample [78]
+                0.00    0.00      54/54          dump_printf [37]
+                0.00    0.00      27/28          machine__findnew_thread [53]
+                0.00    0.00      27/28          comm__str [52]
+                0.00    0.00      27/27          thread__comm_str [84]
+                0.00    0.00      27/27          thread__find_addr_map [85]
+                0.00    0.00      27/81          map__find_symbol [25]
+-----------------------------------------------
+                0.00    0.00      27/27          flush_sample_queue [142]
+[79]     0.0    0.00    0.00      27         process_sample_event [79]
+                0.00    0.00      27/27          perf_event__preprocess_sample [78]
+                0.00    0.00      27/27          iter_finish_mem_entry [75]
+                0.00    0.00      27/27          hist_entry_iter__add [67]
+-----------------------------------------------
+                0.00    0.00      27/27          hist_entry_iter__add [67]
+[80]     0.0    0.00    0.00      27         sample__resolve_callchain [80]
+-----------------------------------------------
+                0.00    0.00      27/27          iter_prepare_mem_entry [77]
+[81]     0.0    0.00    0.00      27         sample__resolve_mem [81]
+                0.00    0.00      27/27          thread__find_cpumode_addr_location [86]
+                0.00    0.00      27/54          thread__find_addr_location [41]
+-----------------------------------------------
+                0.00    0.00      27/27          __hists__add_entry [1761]
+[82]     0.0    0.00    0.00      27         thread__comm [82]
+-----------------------------------------------
+                0.00    0.00      27/27          hists__calc_col_len [69]
+[83]     0.0    0.00    0.00      27         thread__comm_len [83]
+                0.00    0.00       1/28          comm__str [52]
+-----------------------------------------------
+                0.00    0.00      27/27          perf_event__preprocess_sample [78]
+[84]     0.0    0.00    0.00      27         thread__comm_str [84]
+-----------------------------------------------
+                0.00    0.00      27/27          perf_event__preprocess_sample [78]
+[85]     0.0    0.00    0.00      27         thread__find_addr_map [85]
+                0.00    0.00      27/81          identity__map_ip [24]
+                0.00    0.00      27/108         maps__find [16]
+                0.00    0.00      27/54          map__load [39]
+-----------------------------------------------
+                0.00    0.00      27/27          sample__resolve_mem [81]
+[86]     0.0    0.00    0.00      27         thread__find_cpumode_addr_location [86]
+                0.00    0.00      27/54          thread__find_addr_location [41]
+-----------------------------------------------
+                0.00    0.00      27/27          hpp_color_scnprintf [72]
+[87]     0.0    0.00    0.00      27         value_color_snprintf [87]
+-----------------------------------------------
+                0.00    0.00       1/22          strbuf_grow [126]
+                0.00    0.00       4/22          strbuf_init [107]
+                0.00    0.00       5/22          sigchain_push_common [211]
+                0.00    0.00       6/22          strbuf_add [34]
+                0.00    0.00       6/22          strbuf_addf [51]
+[88]     0.0    0.00    0.00      22         xrealloc [88]
+-----------------------------------------------
+                0.00    0.00      17/17          machine__process_mmap_event [29]
+[89]     0.0    0.00    0.00      17         map__new [89]
+                0.00    0.00      16/67          __dsos__findnew [1760]
+                0.00    0.00       1/1           vdso__dso_findnew [217]
+-----------------------------------------------
+                0.00    0.00      17/17          thread__insert_map [91]
+[90]     0.0    0.00    0.00      17         map_groups__fixup_overlappings [90]
+                0.00    0.00      84/205         rb_next [4]
+                0.00    0.00      17/199         rb_first [5]
+                0.00    0.00       4/77          rb_erase [26]
+                0.00    0.00       3/4           memdup [104]
+                0.00    0.00       3/131         rb_insert_color [12]
+-----------------------------------------------
+                0.00    0.00      17/17          machine__process_mmap_event [29]
+[91]     0.0    0.00    0.00      17         thread__insert_map [91]
+                0.00    0.00      17/17          map_groups__fixup_overlappings [90]
+                0.00    0.00      17/131         rb_insert_color [12]
+                0.00    0.00      17/68          maps__insert [28]
+-----------------------------------------------
+                0.00    0.00      12/12          dso__load [117]
+[92]     0.0    0.00    0.00      12         dso__load_vmlinux [92]
+                0.00    0.00      12/12          symsrc__init [93]
+-----------------------------------------------
+                0.00    0.00      12/12          dso__load_vmlinux [92]
+[93]     0.0    0.00    0.00      12         symsrc__init [93]
+-----------------------------------------------
+                0.00    0.00      11/11          hists__fprintf [145]
+[94]     0.0    0.00    0.00      11         perf_hpp__reset_width [94]
+-----------------------------------------------
+                0.00    0.00       1/10          perf_hpp__append_sort_keys [184]
+                0.00    0.00       9/10          perf_hpp__setup_output_field [186]
+[95]     0.0    0.00    0.00      10         perf_hpp__is_sort_entry [95]
+-----------------------------------------------
+                0.00    0.00       1/9           perf_header__read_build_ids [183]
+                0.00    0.00       2/9           dso__find_kallsyms [116]
+                0.00    0.00       2/9           dso__load [117]
+                0.00    0.00       4/9           map__load [39]
+[96]     0.0    0.00    0.00       9         eprintf [96]
+-----------------------------------------------
+                0.00    0.00       9/9           hists__fprintf [145]
+[97]     0.0    0.00    0.00       9         hists__new_col_len [97]
+-----------------------------------------------
+                0.00    0.00       3/9           sort_dimension__add [100]
+                0.00    0.00       6/9           __sort_dimension__add [1765]
+[98]     0.0    0.00    0.00       9         perf_hpp__register_sort_field [98]
+-----------------------------------------------
+                0.00    0.00       9/9           hists__fprintf [145]
+[99]     0.0    0.00    0.00       9         scnprintf.constprop.11 [99]
+-----------------------------------------------
+                0.00    0.00       9/9           setup_sorting [210]
+[100]    0.0    0.00    0.00       9         sort_dimension__add [100]
+                0.00    0.00       6/6           __sort_dimension__add [1765]
+                0.00    0.00       3/9           perf_hpp__register_sort_field [98]
+-----------------------------------------------
+                0.00    0.00       1/7           system_path [216]
+                0.00    0.00       1/7           setup_path [1421]
+                0.00    0.00       1/7           process_cmdline [194]
+                0.00    0.00       1/7           process_pmu_mappings [203]
+                0.00    0.00       1/7           process_numa_topology [201]
+                0.00    0.00       2/7           process_cpu_topology [195]
+[101]    0.0    0.00    0.00       7         strbuf_detach [101]
+-----------------------------------------------
+                0.00    0.00       1/5           perf_header__read_build_ids [183]
+                0.00    0.00       2/5           dso__find_kallsyms [116]
+                0.00    0.00       2/5           map__load [39]
+[102]    0.0    0.00    0.00       5         build_id__sprintf [102]
+-----------------------------------------------
+                0.00    0.00       4/4           __bitmap_weight [1766]
+[103]    0.0    0.00    0.00       4         hweight64 [103]
+-----------------------------------------------
+                0.00    0.00       1/4           vdso__dso_findnew [217]
+                0.00    0.00       3/4           map_groups__fixup_overlappings [90]
+[104]    0.0    0.00    0.00       4         memdup [104]
+-----------------------------------------------
+                0.00    0.00       1/4           set_buildid_dir [1414]
+                0.00    0.00       3/4           perf_config [109]
+[105]    0.0    0.00    0.00       4         mkpath [105]
+-----------------------------------------------
+                0.00    0.00       4/4           dso__find_kallsyms [116]
+[106]    0.0    0.00    0.00       4         scnprintf.constprop.9 [106]
+-----------------------------------------------
+                0.00    0.00       1/4           process_cmdline [194]
+                0.00    0.00       1/4           process_pmu_mappings [203]
+                0.00    0.00       1/4           process_numa_topology [201]
+                0.00    0.00       1/4           process_cpu_topology [195]
+[107]    0.0    0.00    0.00       4         strbuf_init [107]
+                0.00    0.00       4/22          xrealloc [88]
+-----------------------------------------------
+                0.00    0.00       3/3           parse_options [163]
+[108]    0.0    0.00    0.00       3         get_value [108]
+-----------------------------------------------
+                0.00    0.00       1/3           run_builtin [1387]
+                0.00    0.00       1/3           cmd_report [135]
+                0.00    0.00       1/3           setup_pager [209]
+[109]    0.0    0.00    0.00       3         perf_config [109]
+                0.00    0.00       3/4           mkpath [105]
+-----------------------------------------------
+                0.00    0.00       1/3           cmd_report [135]
+                0.00    0.00       1/3           flush_sample_queue [142]
+                0.00    0.00       1/3           __perf_session__process_events [1767]
+[110]    0.0    0.00    0.00       3         ui_progress__init [110]
+-----------------------------------------------
+                0.00    0.00       2/2           thread__delete [129]
+[111]    0.0    0.00    0.00       2         comm(float, long double,...)(...) [111]
+                0.00    0.00       2/77          rb_erase [26]
+-----------------------------------------------
+                0.00    0.00       2/2           thread__new [131]
+[112]    0.0    0.00    0.00       2         comm__new [112]
+                0.00    0.00       2/131         rb_insert_color [12]
+-----------------------------------------------
+                0.00    0.00       2/2           thread__set_comm [132]
+[113]    0.0    0.00    0.00       2         comm__override [113]
+                0.00    0.00       2/131         rb_insert_color [12]
+                0.00    0.00       2/77          rb_erase [26]
+-----------------------------------------------
+                0.00    0.00       2/2           dso__find_kallsyms [116]
+[114]    0.0    0.00    0.00       2         dso__build_id_equal [114]
+-----------------------------------------------
+                0.00    0.00       2/2           dso__load [117]
+[115]    0.0    0.00    0.00       2         dso__build_id_filename [115]
+-----------------------------------------------
+                0.00    0.00       2/2           dso__load [117]
+[116]    0.0    0.00    0.00       2         dso__find_kallsyms [116]
+                0.00    0.00       4/4           scnprintf.constprop.9 [106]
+                0.00    0.00       2/2           sysfs__read_build_id [128]
+                0.00    0.00       2/2           dso__build_id_equal [114]
+                0.00    0.00       2/5           build_id__sprintf [102]
+                0.00    0.00       2/9           eprintf [96]
+-----------------------------------------------
+                0.00    0.00       2/2           map__load [39]
+[117]    0.0    0.00    0.00       2         dso__load [117]
+                0.00    0.00      12/12          dso__load_vmlinux [92]
+                0.00    0.00       2/9           eprintf [96]
+                0.00    0.00       2/2           dso__build_id_filename [115]
+                0.00    0.00       2/2           dso__find_kallsyms [116]
+-----------------------------------------------
+                0.00    0.00       1/2           hists__sort_list_width [2]
+                0.00    0.00       1/2           hists__fprintf [145]
+[118]    0.0    0.00    0.00       2         hpp__width_overhead [118]
+-----------------------------------------------
+                0.00    0.00       1/2           hists__sort_list_width [2]
+                0.00    0.00       1/2           hists__fprintf [145]
+[119]    0.0    0.00    0.00       2         hpp__width_samples [119]
+-----------------------------------------------
+                0.00    0.00       2/2           machines__destroy_kernel_maps [153]
+[120]    0.0    0.00    0.00       2         map__delete [120]
+-----------------------------------------------
+                0.00    0.00       2/2           thread__init_map_groups [130]
+[121]    0.0    0.00    0.00       2         map_groups__new [121]
+-----------------------------------------------
+                0.00    0.00       2/2           thread__delete [129]
+[122]    0.0    0.00    0.00       2         map_groups__put [122]
+                0.00    0.00      16/205         rb_next [4]
+                0.00    0.00      16/77          rb_erase [26]
+                0.00    0.00       4/199         rb_first [5]
+-----------------------------------------------
+                0.00    0.00       2/2           machines__destroy_kernel_maps [153]
+[123]    0.0    0.00    0.00       2         maps__remove [123]
+-----------------------------------------------
+                0.00    0.00       1/2           parse_options_subcommand [165]
+                0.00    0.00       1/2           parse_options [163]
+[124]    0.0    0.00    0.00       2         perf_header__set_cmdline [124]
+-----------------------------------------------
+                0.00    0.00       2/2           hists__fprintf [145]
+[125]    0.0    0.00    0.00       2         scnprintf.constprop.22 [125]
+-----------------------------------------------
+                0.00    0.00       2/2           setup_path [1421]
+[126]    0.0    0.00    0.00       2         strbuf_grow [126]
+                0.00    0.00       1/22          xrealloc [88]
+-----------------------------------------------
+                0.00    0.00       1/2           setup_path [1421]
+                0.00    0.00       1/2           parse_options_subcommand [165]
+[127]    0.0    0.00    0.00       2         strbuf_release [127]
+-----------------------------------------------
+                0.00    0.00       2/2           dso__find_kallsyms [116]
+[128]    0.0    0.00    0.00       2         sysfs__read_build_id [128]
+-----------------------------------------------
+                0.00    0.00       2/2           machine__delete_threads [150]
+[129]    0.0    0.00    0.00       2         thread__delete [129]
+                0.00    0.00       2/2           map_groups__put [122]
+                0.00    0.00       2/2           comm(float, long double,...)(...) [111]
+-----------------------------------------------
+                0.00    0.00       2/2           machine__findnew_thread [53]
+[130]    0.0    0.00    0.00       2         thread__init_map_groups [130]
+                0.00    0.00       2/2           map_groups__new [121]
+-----------------------------------------------
+                0.00    0.00       2/2           machine__findnew_thread [53]
+[131]    0.0    0.00    0.00       2         thread__new [131]
+                0.00    0.00       2/2           comm__new [112]
+-----------------------------------------------
+                0.00    0.00       1/2           machine__process_comm_event [151]
+                0.00    0.00       1/2           perf_session__process_events [189]
+[132]    0.0    0.00    0.00       2         thread__set_comm [132]
+                0.00    0.00       2/2           comm__override [113]
+-----------------------------------------------
+                0.00    0.00       1/2           cmd_report [135]
+                0.00    0.00       1/2           __perf_session__process_events [1767]
+[133]    0.0    0.00    0.00       2         ui_progress__finish [133]
+-----------------------------------------------
+                0.00    0.00       1/1           run_builtin [1387]
+[134]    0.0    0.00    0.00       1         cmd_mem [134]
+                0.00    0.00       1/1           parse_options_subcommand [165]
+                0.00    0.00       1/1           cmd_report [135]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_mem [134]
+[135]    0.0    0.00    0.00       1         cmd_report [135]
+                0.00    0.00       1/3           perf_config [109]
+                0.00    0.00       1/1           parse_options [163]
+                0.00    0.00       1/1           setup_pager [209]
+                0.00    0.00       1/1           setup_browser [208]
+                0.00    0.00       1/28          ui__has_annotation [54]
+                0.00    0.00       1/1           symbol__init [214]
+                0.00    0.00       1/1           sort__setup_elide [212]
+                0.00    0.00       1/1           perf_evlist__combined_sample_type [171]
+                0.00    0.00       1/1           __perf_session__process_events [1767]
+                0.00    0.00       1/1           perf_session__process_events [189]
+                0.00    0.00       1/1           perf_session__new [188]
+                0.00    0.00       1/1           perf_header__has_feat [182]
+                0.00    0.00       1/1           setup_sorting [210]
+                0.00    0.00       1/1           vdso__exit [218]
+                0.00    0.00       1/1           perf_session__delete [187]
+                0.00    0.00       1/3           ui_progress__init [110]
+                0.00    0.00       1/1           hists__collapse_resort [144]
+                0.00    0.00       1/2           ui_progress__finish [133]
+                0.00    0.00       1/1           hists__output_resort [146]
+                0.00    0.00       1/1           perf_evsel__name [179]
+                0.00    0.00       1/1           convert_unit [136]
+                0.00    0.00       1/1           hists__fprintf [145]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[136]    0.0    0.00    0.00       1         convert_unit [136]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_header__read_build_ids [183]
+[137]    0.0    0.00    0.00       1         dso__set_build_id [137]
+-----------------------------------------------
+                0.00    0.00       1/1           vdso__dso_findnew [217]
+[138]    0.0    0.00    0.00       1         dso__set_long_name [138]
+-----------------------------------------------
+                0.00    0.00       1/1           vdso__dso_findnew [217]
+[139]    0.0    0.00    0.00       1         dsos__add [139]
+-----------------------------------------------
+                0.00    0.00       1/1           vdso__dso_findnew [217]
+[140]    0.0    0.00    0.00       1         dsos__find [140]
+-----------------------------------------------
+                0.00    0.00       1/1           run_builtin [1387]
+[141]    0.0    0.00    0.00       1         exit_browser [141]
+-----------------------------------------------
+                0.00    0.00       1/1           __perf_session__process_events [1767]
+[142]    0.0    0.00    0.00       1         flush_sample_queue [142]
+                0.00    0.00      46/142         perf_evsel__parse_sample [8]
+                0.00    0.00      46/142         perf_evlist__parse_sample [7]
+                0.00    0.00      46/96          perf_session_deliver_event [20]
+                0.00    0.00      46/142         ui_progress__update [10]
+                0.00    0.00      27/27          process_sample_event [79]
+                0.00    0.00      23/38          null_progress__update [50]
+                0.00    0.00      17/67          machine__process_mmap_event [29]
+                0.00    0.00      17/67          perf_event__process_mmap [30]
+                0.00    0.00       1/1           machine__process_exit_event [152]
+                0.00    0.00       1/1           perf_event__process_exit [169]
+                0.00    0.00       1/1           machine__process_comm_event [151]
+                0.00    0.00       1/1           perf_event__process_comm [168]
+                0.00    0.00       1/3           ui_progress__init [110]
+-----------------------------------------------
+                0.00    0.00       1/1           make_nonrelative_path [158]
+[143]    0.0    0.00    0.00       1         get_pwd_cwd [143]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[144]    0.0    0.00    0.00       1         hists__collapse_resort [144]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[145]    0.0    0.00    0.00       1         hists__fprintf [145]
+                0.00    0.00     298/298         hists__sort_list_width [2]
+                0.00    0.00     243/243         __sort__hpp_entry [1759]
+                0.00    0.00     108/351         repsep_snprintf [1]
+                0.00    0.00      27/205         rb_next [4]
+                0.00    0.00      27/54          hists__total_period [38]
+                0.00    0.00      27/27          hist_entry__locked_snprintf [61]
+                0.00    0.00      27/27          hist_entry__tlb_snprintf [66]
+                0.00    0.00      27/27          hist_entry__snoop_snprintf [64]
+                0.00    0.00      27/27          hist_entry__dso_daddr_snprintf [58]
+                0.00    0.00      27/27          hist_entry__daddr_snprintf [57]
+                0.00    0.00      27/27          hist_entry__dso_snprintf [59]
+                0.00    0.00      27/27          hist_entry__sym_snprintf [65]
+                0.00    0.00      27/27          hist_entry__lvl_snprintf [62]
+                0.00    0.00      27/27          hist_entry__local_weight_snprintf [60]
+                0.00    0.00      27/27          hpp__entry_samples [71]
+                0.00    0.00      27/27          hpp__color_overhead [70]
+                0.00    0.00      11/11          perf_hpp__reset_width [94]
+                0.00    0.00       9/9           hists__new_col_len [97]
+                0.00    0.00       9/9           scnprintf.constprop.11 [99]
+                0.00    0.00       9/9           __sort__hpp_header [1764]
+                0.00    0.00       9/18          __sort__hpp_width [1762]
+                0.00    0.00       2/2           scnprintf.constprop.22 [125]
+                0.00    0.00       1/199         rb_first [5]
+                0.00    0.00       1/1           hpp__header_samples [148]
+                0.00    0.00       1/1           hpp__header_overhead [147]
+                0.00    0.00       1/2           hpp__width_samples [119]
+                0.00    0.00       1/2           hpp__width_overhead [118]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[146]    0.0    0.00    0.00       1         hists__output_resort [146]
+                0.00    0.00     120/120         hpp__sort_overhead [13]
+                0.00    0.00      44/44          sort__daddr_cmp [46]
+                0.00    0.00      44/44          sort__dso_cmp [47]
+                0.00    0.00      44/44          sort__sym_sort [49]
+                0.00    0.00      44/88          sort__lvl_cmp [22]
+                0.00    0.00      44/142         sort__local_weight_cmp [9]
+                0.00    0.00      27/205         rb_next [4]
+                0.00    0.00      27/131         rb_insert_color [12]
+                0.00    0.00      27/27          hists__calc_col_len [69]
+                0.00    0.00       1/199         rb_first [5]
+-----------------------------------------------
+                0.00    0.00       1/1           hists__fprintf [145]
+[147]    0.0    0.00    0.00       1         hpp__header_overhead [147]
+-----------------------------------------------
+                0.00    0.00       1/1           hists__fprintf [145]
+[148]    0.0    0.00    0.00       1         hpp__header_samples [148]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__delete [187]
+[149]    0.0    0.00    0.00       1         machine__delete_dead_threads [149]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__delete [187]
+[150]    0.0    0.00    0.00       1         machine__delete_threads [150]
+                0.00    0.00       2/205         rb_next [4]
+                0.00    0.00       2/77          rb_erase [26]
+                0.00    0.00       2/2           thread__delete [129]
+                0.00    0.00       1/199         rb_first [5]
+-----------------------------------------------
+                0.00    0.00       1/1           flush_sample_queue [142]
+[151]    0.0    0.00    0.00       1         machine__process_comm_event [151]
+                0.00    0.00       1/2           thread__set_comm [132]
+-----------------------------------------------
+                0.00    0.00       1/1           flush_sample_queue [142]
+[152]    0.0    0.00    0.00       1         machine__process_exit_event [152]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__delete [187]
+[153]    0.0    0.00    0.00       1         machines__destroy_kernel_maps [153]
+                0.00    0.00       2/77          rb_erase [26]
+                0.00    0.00       2/2           maps__remove [123]
+                0.00    0.00       2/2           map__delete [120]
+                0.00    0.00       1/199         rb_first [5]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__delete [187]
+[154]    0.0    0.00    0.00       1         machines__exit [154]
+                0.00    0.00      57/57          dso__delete [31]
+                0.00    0.00       1/1           map_groups__exit [159]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_header__read_build_ids [183]
+[155]    0.0    0.00    0.00       1         machines__findnew [155]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__new [188]
+[156]    0.0    0.00    0.00       1         machines__init [156]
+                0.00    0.00       1/1           map_groups__init [160]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__new [188]
+[157]    0.0    0.00    0.00       1         machines__set_id_hdr_size [157]
+                0.00    0.00       1/199         rb_first [5]
+-----------------------------------------------
+                0.00    0.00       1/1           setup_path [1421]
+[158]    0.0    0.00    0.00       1         make_nonrelative_path [158]
+                0.00    0.00       1/1           get_pwd_cwd [143]
+-----------------------------------------------
+                0.00    0.00       1/1           machines__exit [154]
+[159]    0.0    0.00    0.00       1         map_groups__exit [159]
+                0.00    0.00      49/205         rb_next [4]
+                0.00    0.00      49/77          rb_erase [26]
+                0.00    0.00       2/199         rb_first [5]
+-----------------------------------------------
+                0.00    0.00       1/1           machines__init [156]
+[160]    0.0    0.00    0.00       1         map_groups__init [160]
+-----------------------------------------------
+                0.00    0.00       1/1           machine__process_kernel_mmap_event [43]
+[161]    0.0    0.00    0.00       1         maps__set_kallsyms_ref_reloc_sym [161]
+-----------------------------------------------
+                0.00    0.00       1/1           color_snprintf [55]
+[162]    0.0    0.00    0.00       1         pager_in_use [162]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[163]    0.0    0.00    0.00       1         parse_options [163]
+                0.00    0.00     110/110         prefixcmp [15]
+                0.00    0.00       3/3           get_value [108]
+                0.00    0.00       1/2           perf_header__set_cmdline [124]
+-----------------------------------------------
+                0.00    0.00       1/1           parse_options_subcommand [165]
+[164]    0.0    0.00    0.00       1         parse_options_step [164]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_mem [134]
+[165]    0.0    0.00    0.00       1         parse_options_subcommand [165]
+                0.00    0.00       4/56          strbuf_add [34]
+                0.00    0.00       1/2           perf_header__set_cmdline [124]
+                0.00    0.00       1/1           parse_options_step [164]
+                0.00    0.00       1/30          strbuf_addf [51]
+                0.00    0.00       1/2           strbuf_release [127]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__delete [187]
+[166]    0.0    0.00    0.00       1         perf_data_file__close [166]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__new [188]
+[167]    0.0    0.00    0.00       1         perf_data_file__open [167]
+-----------------------------------------------
+                0.00    0.00       1/1           flush_sample_queue [142]
+[168]    0.0    0.00    0.00       1         perf_event__process_comm [168]
+-----------------------------------------------
+                0.00    0.00       1/1           flush_sample_queue [142]
+[169]    0.0    0.00    0.00       1         perf_event__process_exit [169]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[170]    0.0    0.00    0.00       1         perf_evlist__add [170]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[171]    0.0    0.00    0.00       1         perf_evlist__combined_sample_type [171]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__new [188]
+[172]    0.0    0.00    0.00       1         perf_evlist__id_hdr_size [172]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[173]    0.0    0.00    0.00       1         perf_evlist__new [173]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__new [188]
+[174]    0.0    0.00    0.00       1         perf_evlist__sample_id_all [174]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__new [188]
+[175]    0.0    0.00    0.00       1         perf_evlist__valid_read_format [175]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__new [188]
+[176]    0.0    0.00    0.00       1         perf_evlist__valid_sample_id_all [176]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__new [188]
+[177]    0.0    0.00    0.00       1         perf_evlist__valid_sample_type [177]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[178]    0.0    0.00    0.00       1         perf_evsel__alloc_id [178]
+                0.00    0.00       1/1           xyarray__new [220]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[179]    0.0    0.00    0.00       1         perf_evsel__name [179]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[180]    0.0    0.00    0.00       1         perf_evsel__new_idx [180]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[181]    0.0    0.00    0.00       1         perf_file_header__read [181]
+                0.00    0.00       1/162         readn [6]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[182]    0.0    0.00    0.00       1         perf_header__has_feat [182]
+-----------------------------------------------
+                0.00    0.00       1/1           process_build_id [193]
+[183]    0.0    0.00    0.00       1         perf_header__read_build_ids [183]
+                0.00    0.00       2/162         readn [6]
+                0.00    0.00       1/67          __dsos__findnew [1760]
+                0.00    0.00       1/1           dso__set_build_id [137]
+                0.00    0.00       1/5           build_id__sprintf [102]
+                0.00    0.00       1/9           eprintf [96]
+                0.00    0.00       1/1           machines__findnew [155]
+-----------------------------------------------
+                0.00    0.00       1/1           setup_sorting [210]
+[184]    0.0    0.00    0.00       1         perf_hpp__append_sort_keys [184]
+                0.00    0.00       1/10          perf_hpp__is_sort_entry [95]
+-----------------------------------------------
+                0.00    0.00       1/1           setup_sorting [210]
+[185]    0.0    0.00    0.00       1         perf_hpp__init [185]
+-----------------------------------------------
+                0.00    0.00       1/1           setup_sorting [210]
+[186]    0.0    0.00    0.00       1         perf_hpp__setup_output_field [186]
+                0.00    0.00      54/54          perf_hpp__same_sort_entry [40]
+                0.00    0.00       9/10          perf_hpp__is_sort_entry [95]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[187]    0.0    0.00    0.00       1         perf_session__delete [187]
+                0.00    0.00       1/1           machine__delete_dead_threads [149]
+                0.00    0.00       1/1           machines__destroy_kernel_maps [153]
+                0.00    0.00       1/1           machine__delete_threads [150]
+                0.00    0.00       1/1           machines__exit [154]
+                0.00    0.00       1/1           perf_data_file__close [166]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[188]    0.0    0.00    0.00       1         perf_session__new [188]
+                0.00    0.00       1/1           machines__init [156]
+                0.00    0.00       1/1           perf_data_file__open [167]
+                0.00    0.00       1/1           perf_evlist__sample_id_all [174]
+                0.00    0.00       1/1           perf_session__read_header [190]
+                0.00    0.00       1/1           perf_evlist__id_hdr_size [172]
+                0.00    0.00       1/1           machines__set_id_hdr_size [157]
+                0.00    0.00       1/1           perf_evlist__valid_sample_type [177]
+                0.00    0.00       1/1           perf_evlist__valid_sample_id_all [176]
+                0.00    0.00       1/1           perf_evlist__valid_read_format [175]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[189]    0.0    0.00    0.00       1         perf_session__process_events [189]
+                0.00    0.00       1/28          machine__findnew_thread [53]
+                0.00    0.00       1/2           thread__set_comm [132]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__new [188]
+[190]    0.0    0.00    0.00       1         perf_session__read_header [190]
+                0.00    0.00       4/162         readn [6]
+                0.00    0.00       1/1           perf_evlist__new [173]
+                0.00    0.00       1/1           perf_file_header__read [181]
+                0.00    0.00       1/1           perf_evsel__new_idx [180]
+                0.00    0.00       1/1           perf_evlist__add [170]
+                0.00    0.00       1/1           perf_evsel__alloc_id [178]
+                0.00    0.00       1/1           __bitmap_weight [1766]
+                0.00    0.00       1/1           process_pmu_mappings [203]
+                0.00    0.00       1/1           process_numa_topology [201]
+                0.00    0.00       1/1           process_cpu_topology [195]
+                0.00    0.00       1/1           process_event_desc [198]
+                0.00    0.00       1/1           process_cmdline [194]
+                0.00    0.00       1/1           process_total_mem [204]
+                0.00    0.00       1/1           process_cpuid [197]
+                0.00    0.00       1/1           process_cpudesc [196]
+                0.00    0.00       1/1           process_nrcpus [200]
+                0.00    0.00       1/1           process_arch [192]
+                0.00    0.00       1/1           process_version [205]
+                0.00    0.00       1/1           process_osrelease [202]
+                0.00    0.00       1/1           process_hostname [199]
+                0.00    0.00       1/1           process_build_id [193]
+-----------------------------------------------
+                0.00    0.00       1/1           __perf_session__process_events [1767]
+[191]    0.0    0.00    0.00       1         perf_tool__fill_defaults [191]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[192]    0.0    0.00    0.00       1         process_arch [192]
+                0.00    0.00       2/162         readn [6]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[193]    0.0    0.00    0.00       1         process_build_id [193]
+                0.00    0.00       1/1           perf_header__read_build_ids [183]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[194]    0.0    0.00    0.00       1         process_cmdline [194]
+                0.00    0.00       9/162         readn [6]
+                0.00    0.00       4/56          strbuf_add [34]
+                0.00    0.00       1/4           strbuf_init [107]
+                0.00    0.00       1/7           strbuf_detach [101]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[195]    0.0    0.00    0.00       1         process_cpu_topology [195]
+                0.00    0.00      38/162         readn [6]
+                0.00    0.00      18/56          strbuf_add [34]
+                0.00    0.00       2/7           strbuf_detach [101]
+                0.00    0.00       1/4           strbuf_init [107]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[196]    0.0    0.00    0.00       1         process_cpudesc [196]
+                0.00    0.00       2/162         readn [6]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[197]    0.0    0.00    0.00       1         process_cpuid [197]
+                0.00    0.00       2/162         readn [6]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[198]    0.0    0.00    0.00       1         process_event_desc [198]
+                0.00    0.00       1/1           read_event_desc [206]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[199]    0.0    0.00    0.00       1         process_hostname [199]
+                0.00    0.00       2/162         readn [6]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[200]    0.0    0.00    0.00       1         process_nrcpus [200]
+                0.00    0.00       2/162         readn [6]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[201]    0.0    0.00    0.00       1         process_numa_topology [201]
+                0.00    0.00      11/162         readn [6]
+                0.00    0.00       2/30          strbuf_addf [51]
+                0.00    0.00       2/56          strbuf_add [34]
+                0.00    0.00       1/4           strbuf_init [107]
+                0.00    0.00       1/7           strbuf_detach [101]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[202]    0.0    0.00    0.00       1         process_osrelease [202]
+                0.00    0.00       2/162         readn [6]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[203]    0.0    0.00    0.00       1         process_pmu_mappings [203]
+                0.00    0.00      76/162         readn [6]
+                0.00    0.00      25/30          strbuf_addf [51]
+                0.00    0.00      25/56          strbuf_add [34]
+                0.00    0.00       1/4           strbuf_init [107]
+                0.00    0.00       1/7           strbuf_detach [101]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[204]    0.0    0.00    0.00       1         process_total_mem [204]
+                0.00    0.00       1/162         readn [6]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[205]    0.0    0.00    0.00       1         process_version [205]
+                0.00    0.00       2/162         readn [6]
+-----------------------------------------------
+                0.00    0.00       1/1           process_event_desc [198]
+[206]    0.0    0.00    0.00       1         read_event_desc [206]
+                0.00    0.00       6/162         readn [6]
+-----------------------------------------------
+                0.00    0.00       1/1           machine__process_kernel_mmap_event [43]
+[207]    0.0    0.00    0.00       1         scnprintf.constprop.10 [207]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[208]    0.0    0.00    0.00       1         setup_browser [208]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[209]    0.0    0.00    0.00       1         setup_pager [209]
+                0.00    0.00       1/1           start_command [213]
+                0.00    0.00       1/1           sigchain_push_common [211]
+                0.00    0.00       1/3           perf_config [109]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[210]    0.0    0.00    0.00       1         setup_sorting [210]
+                0.00    0.00       9/9           sort_dimension__add [100]
+                0.00    0.00       1/1           perf_hpp__init [185]
+                0.00    0.00       1/1           perf_hpp__setup_output_field [186]
+                0.00    0.00       1/1           perf_hpp__append_sort_keys [184]
+-----------------------------------------------
+                0.00    0.00       1/1           setup_pager [209]
+[211]    0.0    0.00    0.00       1         sigchain_push_common [211]
+                0.00    0.00       5/22          xrealloc [88]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[212]    0.0    0.00    0.00       1         sort__setup_elide [212]
+-----------------------------------------------
+                0.00    0.00       1/1           setup_pager [209]
+[213]    0.0    0.00    0.00       1         start_command [213]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[214]    0.0    0.00    0.00       1         symbol__init [214]
+                0.00    0.00       1/55          symbol__elf_init [35]
+                0.00    0.00       1/1           vmlinux_path__init [219]
+-----------------------------------------------
+                0.00    0.00       1/1           machine__process_kernel_mmap_event [43]
+[215]    0.0    0.00    0.00       1         symbol__restricted_filename [215]
+-----------------------------------------------
+                0.00    0.00       1/1           set_buildid_dir [1414]
+[216]    0.0    0.00    0.00       1         system_path [216]
+                0.00    0.00       1/7           strbuf_detach [101]
+                0.00    0.00       1/30          strbuf_addf [51]
+-----------------------------------------------
+                0.00    0.00       1/1           map__new [89]
+[217]    0.0    0.00    0.00       1         vdso__dso_findnew [217]
+                0.00    0.00       1/1           dsos__find [140]
+                0.00    0.00       1/57          dso__new [33]
+                0.00    0.00       1/1           dsos__add [139]
+                0.00    0.00       1/1           dso__set_long_name [138]
+                0.00    0.00       1/4           memdup [104]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[218]    0.0    0.00    0.00       1         vdso__exit [218]
+-----------------------------------------------
+                0.00    0.00       1/1           symbol__init [214]
+[219]    0.0    0.00    0.00       1         vmlinux_path__init [219]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_evsel__alloc_id [178]
+[220]    0.0    0.00    0.00       1         xyarray__new [220]
+-----------------------------------------------
+                0.00    0.00     243/243         hists__fprintf [145]
+[1759]   0.0    0.00    0.00     243         __sort__hpp_entry [1759]
+                0.00    0.00     243/270         hists__col_len [3]
+-----------------------------------------------
+                0.00    0.00       1/67          perf_header__read_build_ids [183]
+                0.00    0.00      16/67          map__new [89]
+                0.00    0.00      50/67          machine__process_kernel_mmap_event [43]
+[1760]   0.0    0.00    0.00      67         __dsos__findnew [1760]
+                0.00    0.00      56/57          dso__new [33]
+-----------------------------------------------
+                0.00    0.00      27/27          iter_add_single_mem_entry [74]
+[1761]   0.0    0.00    0.00      27         __hists__add_entry [1761]
+                0.00    0.00      98/142         sort__local_weight_cmp [9]
+                0.00    0.00      98/98          hpp__nop_cmp [17]
+                0.00    0.00      44/44          sort__sym_cmp [48]
+                0.00    0.00      44/88          sort__lvl_cmp [22]
+                0.00    0.00      27/27          thread__comm [82]
+                0.00    0.00      27/27          hist_entry__new [63]
+                0.00    0.00      27/131         rb_insert_color [12]
+-----------------------------------------------
+                0.00    0.00       9/18          hists__sort_list_width [2]
+                0.00    0.00       9/18          hists__fprintf [145]
+[1762]   0.0    0.00    0.00      18         __sort__hpp_width [1762]
+                0.00    0.00      18/270         hists__col_len [3]
+-----------------------------------------------
+                0.00    0.00      17/17          machine__process_mmap_event [29]
+[1763]   0.0    0.00    0.00      17         __machine__findnew_thread [1763]
+-----------------------------------------------
+                0.00    0.00       9/9           hists__fprintf [145]
+[1764]   0.0    0.00    0.00       9         __sort__hpp_header [1764]
+                0.00    0.00       9/270         hists__col_len [3]
+-----------------------------------------------
+                0.00    0.00       6/6           sort_dimension__add [100]
+[1765]   0.0    0.00    0.00       6         __sort_dimension__add [1765]
+                0.00    0.00       6/9           perf_hpp__register_sort_field [98]
+-----------------------------------------------
+                0.00    0.00       1/1           perf_session__read_header [190]
+[1766]   0.0    0.00    0.00       1         __bitmap_weight [1766]
+                0.00    0.00       4/4           hweight64 [103]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_report [135]
+[1767]   0.0    0.00    0.00       1         __perf_session__process_events [1767]
+                0.00    0.00      96/96          events_stats__inc [18]
+                0.00    0.00      96/142         perf_evsel__parse_sample [8]
+                0.00    0.00      96/142         perf_evlist__parse_sample [7]
+                0.00    0.00      96/96          perf_session_queue_event [21]
+                0.00    0.00      96/142         ui_progress__update [10]
+                0.00    0.00      50/67          machine__process_mmap_event [29]
+                0.00    0.00      50/67          perf_event__process_mmap [30]
+                0.00    0.00      50/96          perf_session_deliver_event [20]
+                0.00    0.00      15/38          null_progress__update [50]
+                0.00    0.00       1/1           perf_tool__fill_defaults [191]
+                0.00    0.00       1/2           ui_progress__finish [133]
+                0.00    0.00       1/3           ui_progress__init [110]
+                0.00    0.00       1/1           flush_sample_queue [142]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2014 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [1766] __bitmap_weight       [76] iter_next_nop_entry (hist.c) [193] process_build_id (header.c)
+ [1760] __dsos__findnew       [77] iter_prepare_mem_entry (hist.c) [194] process_cmdline (header.c)
+ [1761] __hists__add_entry   [149] machine__delete_dead_threads [195] process_cpu_topology (header.c)
+ [1763] __machine__findnew_thread (machine.c) [150] machine__delete_threads [196] process_cpudesc (header.c)
+ [1767] __perf_session__process_events [53] machine__findnew_thread [197] process_cpuid (header.c)
+ [1759] __sort__hpp_entry (sort.c) [151] machine__process_comm_event [198] process_event_desc (header.c)
+ [1764] __sort__hpp_header (sort.c) [152] machine__process_exit_event [199] process_hostname (header.c)
+ [1762] __sort__hpp_width (sort.c) [43] machine__process_kernel_mmap_event (machine.c) [200] process_nrcpus (header.c)
+ [1765] __sort_dimension__add (sort.c) [29] machine__process_mmap_event [201] process_numa_topology (header.c)
+ [102] build_id__sprintf     [153] machines__destroy_kernel_maps [202] process_osrelease (header.c)
+ [134] cmd_mem               [154] machines__exit        [203] process_pmu_mappings (header.c)
+ [135] cmd_report            [155] machines__findnew      [79] process_sample_event (builtin-report.c)
+  [55] color_snprintf        [156] machines__init        [204] process_total_mem (header.c)
+ [111] comm(float, long double,...)(...) [157] machines__set_id_hdr_size [205] process_version (header.c)
+ [112] comm__new             [158] make_nonrelative_path  [26] rb_erase
+ [113] comm__override        [120] map__delete             [5] rb_first
+  [52] comm__str              [25] map__find_symbol       [12] rb_insert_color
+ [136] convert_unit           [39] map__load               [4] rb_next
+ [114] dso__build_id_equal    [89] map__new              [206] read_event_desc (header.c)
+ [115] dso__build_id_filename [42] map__new2               [6] readn
+  [31] dso__delete           [159] map_groups__exit        [1] repsep_snprintf (sort.c)
+ [116] dso__find_kallsyms (symbol.c) [90] map_groups__fixup_overlappings [80] sample__resolve_callchain
+  [23] dso__find_symbol      [160] map_groups__init       [81] sample__resolve_mem
+  [32] dso__free_a2l         [121] map_groups__new       [207] scnprintf.constprop.10 (kernel.h)
+ [117] dso__load             [122] map_groups__put        [99] scnprintf.constprop.11 (kernel.h)
+  [92] dso__load_vmlinux      [16] maps__find            [125] scnprintf.constprop.22 (kernel.h)
+  [11] dso__loaded            [28] maps__insert          [106] scnprintf.constprop.9 (kernel.h)
+  [36] dso__name_len         [123] maps__remove          [208] setup_browser
+  [33] dso__new              [161] maps__set_kallsyms_ref_reloc_sym [209] setup_pager
+ [137] dso__set_build_id     [104] memdup                [210] setup_sorting
+ [138] dso__set_long_name    [105] mkpath                [211] sigchain_push_common
+  [44] dso__set_short_name    [50] null_progress__update (progress.c) [46] sort__daddr_cmp (sort.c)
+ [139] dsos__add             [162] pager_in_use           [47] sort__dso_cmp (sort.c)
+ [140] dsos__find            [163] parse_options           [9] sort__local_weight_cmp (sort.c)
+  [37] dump_printf           [164] parse_options_step     [22] sort__lvl_cmp (sort.c)
+  [96] eprintf               [165] parse_options_subcommand [212] sort__setup_elide
+  [18] events_stats__inc     [109] perf_config            [48] sort__sym_cmp (sort.c)
+ [141] exit_browser          [166] perf_data_file__close  [49] sort__sym_sort (sort.c)
+ [142] flush_sample_queue (session.c) [167] perf_data_file__open [100] sort_dimension__add
+ [143] get_pwd_cwd (abspath.c) [78] perf_event__preprocess_sample [213] start_command
+ [108] get_value (parse-options.c) [168] perf_event__process_comm [34] strbuf_add
+  [56] hist_entry__append_callchain [169] perf_event__process_exit [51] strbuf_addf
+  [57] hist_entry__daddr_snprintf (sort.c) [30] perf_event__process_mmap [101] strbuf_detach
+  [58] hist_entry__dso_daddr_snprintf (sort.c) [170] perf_evlist__add [126] strbuf_grow
+  [59] hist_entry__dso_snprintf (sort.c) [171] perf_evlist__combined_sample_type [107] strbuf_init
+  [60] hist_entry__local_weight_snprintf (sort.c) [19] perf_evlist(int, double, ev, short,...)(long) [127] strbuf_release
+  [61] hist_entry__locked_snprintf (sort.c) [172] perf_evlist__id_hdr_size [45] strxfrchar
+  [62] hist_entry__lvl_snprintf (sort.c) [173] perf_evlist__new [35] symbol__elf_init
+  [63] hist_entry__new (hist.c) [7] perf_evlist__parse_sample [214] symbol__init
+  [64] hist_entry__snoop_snprintf (sort.c) [174] perf_evlist__sample_id_all [215] symbol__restricted_filename
+  [65] hist_entry__sym_snprintf (sort.c) [175] perf_evlist__valid_read_format [14] symbols__delete
+  [66] hist_entry__tlb_snprintf (sort.c) [176] perf_evlist__valid_sample_id_all [93] symsrc__init
+  [67] hist_entry_iter__add  [177] perf_evlist__valid_sample_type [128] sysfs__read_build_id
+  [68] hist_iter__report_callback (builtin-report.c) [178] perf_evsel__alloc_id [216] system_path
+  [69] hists__calc_col_len   [179] perf_evsel__name       [82] thread__comm
+   [3] hists__col_len        [180] perf_evsel__new_idx    [83] thread__comm_len
+ [144] hists__collapse_resort  [8] perf_evsel__parse_sample [84] thread__comm_str
+ [145] hists__fprintf        [181] perf_file_header__read [129] thread__delete
+  [27] hists__inc_nr_events  [182] perf_header__has_feat  [41] thread__find_addr_location
+  [97] hists__new_col_len    [183] perf_header__read_build_ids (header.c) [85] thread__find_addr_map
+ [146] hists__output_resort  [124] perf_header__set_cmdline [86] thread__find_cpumode_addr_location
+   [2] hists__sort_list_width [184] perf_hpp__append_sort_keys [130] thread__init_map_groups
+  [38] hists__total_period   [185] perf_hpp__init         [91] thread__insert_map
+  [70] hpp__color_overhead (hist.c) [95] perf_hpp__is_sort_entry [131] thread__new
+  [71] hpp__entry_samples (hist.c) [98] perf_hpp__register_sort_field [132] thread__set_comm
+ [147] hpp__header_overhead (hist.c) [94] perf_hpp__reset_width [54] ui__has_annotation
+ [148] hpp__header_samples (hist.c) [40] perf_hpp__same_sort_entry [133] ui_progress__finish
+  [17] hpp__nop_cmp (hist.c) [186] perf_hpp__setup_output_field [110] ui_progress__init
+  [13] hpp__sort_overhead (hist.c) [187] perf_session__delete [10] ui_progress__update
+ [118] hpp__width_overhead (hist.c) [188] perf_session__new [87] value_color_snprintf
+ [119] hpp__width_samples (hist.c) [189] perf_session__process_events [217] vdso__dso_findnew
+  [72] hpp_color_scnprintf (hist.c) [190] perf_session__read_header [218] vdso__exit
+  [73] hpp_entry_scnprintf (hist.c) [20] perf_session_deliver_event (session.c) [219] vmlinux_path__init (symbol.c)
+ [103] hweight64              [21] perf_session_queue_event [88] xrealloc
+  [24] identity__map_ip (map.h) [191] perf_tool__fill_defaults [220] xyarray__new
+  [74] iter_add_single_mem_entry (hist.c) [15] prefixcmp
+  [75] iter_finish_mem_entry (hist.c) [192] process_arch (header.c)
